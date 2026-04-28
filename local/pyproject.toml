@@ -1,0 +1,15 @@
+[project]
+name = "ai-speech-synthesis"
+version = "0.1.0"
+description = "AI Speech Synthesis Pipeline"
+requires-python = ">=3.10"
+dependencies = [
+    "torch",
+    "kokoro>=0.9.4",
+    "gradio",
+    "soundfile",
+    "librosa",
+    "scipy",
+    "numpy",
+    "vosk",
+]
